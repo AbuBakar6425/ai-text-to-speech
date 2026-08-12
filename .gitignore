@@ -1,0 +1,30 @@
+
+The YAML metadata at the top tells Spaces that the application uses Gradio and that `app.py` is the application entry point. Hugging Face documents these Space configuration fields in its current configuration reference. :contentReference[oaicite:6]{index=6}
+
+---
+
+# 7. `.gitignore`
+
+Create:
+
+```text
+__pycache__/
+*.py[cod]
+*.pyo
+
+.venv/
+venv/
+env/
+
+.vscode/
+.idea/
+
+.DS_Store
+
+*.wav
+*.mp3
+*.ogg
+
+*.log
+
+.env
